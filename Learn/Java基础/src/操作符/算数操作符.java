@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class 算数操作符 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        System.out.println("第一个整数：" + a);
-        int b = sc.nextInt();
-        System.out.println("第二个整数：" + b);
-        System.out.println("两个数的和是：" + (a + b));
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//        System.out.println("第一个整数：" + a);
+//        int b = sc.nextInt();
+//        System.out.println("第二个整数：" + b);
+//        System.out.println("两个数的和是：" + (a + b));
 
         // 如果有任何运算单元的长度超过Int,则运算结果按照最长的计算
         int i = 5;
@@ -26,6 +26,6 @@ public class 算数操作符 {
         System.out.println(modular);
 
         // 自增、自减
-        System.out.println();
+        System.out.println(m++ + --m + --n);
     }
 }
